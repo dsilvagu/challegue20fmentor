@@ -1,0 +1,20 @@
+---
+import img1 from '../images/illustration-mockups.svg';
+import Button from '../components/Button.astro';
+import img2 from '../images/bg-hero-desktop.svg';
+const styleImg = `background-image: url('${img2.src}')`;
+
+---
+<div style={styleImg}>
+
+
+<section class="pt-40 pb-20 px-4 lg:max-w-screen-2xl mx-auto flex flex-col lg:flex-row gap-10 justify-center items-center text-pvdcyan">
+    <div class="flex gap-5 lg:gap-10 flex-col lg:w-1/2 items-center lg:items-start text-center lg:text-start">
+        <p class="text-5xl lg:text-6xl capitalize font-medium">build the community your fans will love</p>
+        <p class="text-pretty text-lg lg:text-2xl font-light">Huddle re-images the way we build communities. You have a voice,but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <Button />
+    </div>
+    <img class="lg:w-1/2" src={img1.src} alt="">
+</section>
+
+</div>

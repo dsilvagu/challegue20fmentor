@@ -1,0 +1,15 @@
+---
+import Card from "./Card.astro";
+import img1 from '../images/illustration-flowing-conversation.svg';
+import img2 from '../images/illustration-grow-together.svg';
+import img3 from '../images/illustration-your-users.svg';
+---
+
+
+<section class="lg:max-w-screen-2xl mx-auto  px-4 text-pvdcyan">
+    <Card title="grow together" text="Generate meaningful discussions with your audience and build a string, loyal community. Think of the insightful conversations you miss out on with a feedback form." image={img2.src} reverse="lg:flex-row"/>
+
+    <Card title="flowing conversations" text="You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow" image={img1.src} reverse="lg:flex-row-reverse"/>
+
+    <Card title="your users" text="It takes no time at all to integrate Huddle with your app's aythentication solution. This means, once signed in to your app, your users can start chatting inmediately." image={img3.src}  reverse="lg:flex-row"/>
+</section>

@@ -1,0 +1,9 @@
+---
+const {class : className} = Astro.props;
+
+---
+
+<section class={` ${className} w-full scroll-m-20 relative`}>
+    <slot />
+</section>
+

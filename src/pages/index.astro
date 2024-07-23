@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Content from '../components/Content.astro';
+import Hero from '../components/Hero.astro';
+import img1 from '../images/bg-hero-desktop.svg';
+import Cards from '../components/Cards.astro';
+import Message from '../components/Message.astro'
+import '@fontsource-variable/open-sans';
+---
+
+<Layout title='FMentor'>
+
+	<main class="fondo font-opens">
+		<Content class="bg-pvpcyan ">
+			<Hero />
+		</Content>
+
+		<Content>
+			<Cards />
+		</Content>
+
+		<Content>
+			<Message />
+		</Content>
+	</main>
+
+</Layout>
